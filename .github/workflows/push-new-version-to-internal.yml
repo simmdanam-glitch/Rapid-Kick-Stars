@@ -16,7 +16,7 @@ jobs:
         run: |
           mkdir -p build_output
           gh release download 2.0.0 \
-            --pattern "Rapid_Kick_Stars_2.aab" \
+            --pattern "Rapid.Kick.Stars_2.aab" \
             --dir build_output
 
       - name: Setup Ruby
